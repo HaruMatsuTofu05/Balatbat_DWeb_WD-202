@@ -47,7 +47,7 @@ $discount = $subtotal * $rate;
 $total = $subtotal - $discount;
 
 include 'header.php';
-echo '<h2>Oder Receipt</h2>';
+echo '<h2>Order Receipt</h2>';
 echo '<p>Customer: ' . htmlspecialchars($name, ENT_QUOTES, 'UTF-8') . '</p>';
 echo '<p>Customer type: ' . htmlspecialchars(ucfirst($type)) . '</p>';
 echo '<h3>Items Ordered</h3>';
